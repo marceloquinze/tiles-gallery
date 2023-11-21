@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "blaze/tiles",
+	"version": "0.1.0",
+	"title": "Blaze Tiles",
+	"category": "media",
+	"icon": "images-alt2",
+	"description": "Tiles block specifically created for Blaze Theme",
+	"example": {},
+	"supports": {
+		"align": true
+	},
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": "full"
+		}
+	},
+	"textdomain": "blaze-tiles",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/index.css"
+}
